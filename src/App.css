@@ -1,0 +1,27 @@
+.bookshelfDiv {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.formDiv form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.bookCardsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bookCard {
+  border: 1px solid #888;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  min-width: 180px;
+}
